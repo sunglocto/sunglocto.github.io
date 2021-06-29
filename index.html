@@ -117,6 +117,19 @@ a {
 a:hover {
   font-size: 30px;
 }
+      
+ .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . ."
+    ". . .";
+}
+
 
 </style>
 
@@ -154,21 +167,7 @@ a:hover {
     <p>
         I have made/worked on a few projects, which you can see below:
     </p>
-    <h2>
-      Ripple Soda
-    </h2>
-    <p>
-      A roblox game I have worked on.
-    </p>
-    <center><a href="https://www.roblox.com/games/6326570922/" title="Ripple Soda" alt="Ripple Soda"><img id="rs" src="https://cdn.glitch.com/972621ac-7a33-400f-b508-5c011b380af6%2Fa8ea048507a44497042649243f3b8d28.png?v=1624783326574" alt="Ripple Soda" title="Ripple Soda"></a></center>
-    
-    <h2>
-      Bad Calculator
-    </h2>
-    <p>
-      A calculator made with HTML, CSS and JS.
-    </p>
-    <iframe src="https://bad-calculator.glitch.me" width="100%" height="600" title="Bad Calculator" style="border:none;"></iframe>
+    <div class="container"></div>
     <h2>
       My socials
     </h2>
